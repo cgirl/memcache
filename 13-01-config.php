@@ -9,5 +9,5 @@ $_memserv['C'] = array('host'=>'127.0.0.1', 'port'=>'11213');
 $_memserv['D'] = array('host'=>'127.0.0.1', 'port'=>'11214');
 $_memserv['E'] = array('host'=>'127.0.0.1', 'port'=>'11215');
 
-//$_dis = array('mod', 'con');
+$_dis = 'Consistent'; //Consistent
 ?>

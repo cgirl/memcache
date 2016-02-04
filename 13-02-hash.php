@@ -36,6 +36,7 @@ class Moder implements hash, distribution{
 		$key = array_search($delNode, $this->_nodes);
 		unset($this->_nodes[$key]);
 		$this->cnt -= 1;
+		$this->_nodes = array_merge($this->_nodes); //重新排数组的索引
 		return true;
 	}
 	public function lookup($key){
